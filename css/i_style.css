@@ -359,7 +359,7 @@ iframe{
      align-items: center;
    }
    .container{
-     transform: scale(.7);
+     transform: scale(.5);
      top: 0;
      left: 0;
      height: 100%;
