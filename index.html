@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/logo/burgax.png" type="image/x-icon">
+  <title>Burga's Site</title>
+  <!-- Css di reset  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+  <!-- import font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <!-- css -->
+  <link rel="stylesheet" href="css/i_style.css">
+  <link rel="stylesheet" href="css/style_header.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+  <!-- Loader  -->
+  <div class="loader">
+    <video autoplay muted loop id="video-back">
+      <source src="img/loading.mp4" type="video/mp4">
+    </video>
+    <div></div>
+  </div>
+  <div class="bg" id="particles-js"></div> 
+
+
+
+  <div class="content">
+    <!-- HEADER -->
+    <div class="header">
+      <div class="logo">
+        <img src="img/logo/burgax.png" alt="Immagine PNG alternativa" height="50" width="130">
+      </div>
+      <ul class="menu">
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#who"><i class="fas fa-house-user"></i> Chi Sono</a></li>
+        <li><a href="#certificate" rel="author"><i class="far fa-user"></i> Certificati</a></li>
+        <li><a href="#" rel="author"><i class="far fa-user"></i> Altri Siti </a></li>
+      </ul>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+    <!-- BODY -->
+    <div class="hero ">
+      <div class="hero__content reveal mt-3">
+        <h1 class="big-text hero__content__title">Burga's Site</h1>
+        <div class="br"> </div>
+        <div class=" hero__content__social">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="br-1"> </div>
+        <div class="arrow mt-e"><i class="fa-solid fa-angles-down"></i></div>
+      </div>
+      <video autoplay muted loop id="video-back">
+        <source src="img/vv.mp4" type="video/mp4">
+      </video>
+
+    </div>
+    <a name="who">
+      <div class="whoami">
+        <h1 class="big-text mt-2 ">./whoami</h1>
+        <div class="poster">
+          <div class="poster__content reveal">
+            <h3 class="med-text">cout<< Gabriele Burgarello;</h3>
+                <h3 class="med-text">System.out.println("02/12/2004");</h3>
+                <h3 class="med-text">printf("Pelermo, Italia");</h3>
+                <h3 class="med-text">print(Studente dell'ITI Vittorio Emanuele III);</h3>
+          </div>
+          <div class="poster__img reveal">
+            <img src="img/whoami/img1.jpg" alt="">
+          </div>
+        </div>
+        <div class="poster mt-1">
+          <div class="poster__img reveal">
+            <img src="img/whoami/img2.jpg" alt="" id="im2">
+          </div>
+          <div class="poster__content reveal">
+            <h3 class="med-text">document.write("Appassionato di numeri e reti informatiche") ;</h3>
+            <h3 class="med-text">puts "Nel tempo libero fa siti web"</h3>
+            <h3 class="med-text">console.log(Prova a tener su un server Debian);</h3>
+            <h3 class="med-text">println("Hello World!");</h3>
+          </div>
+        </div>
+      </div>
+      <a name="certificate">
+        <div class="certificate">
+          <h1 class="big-text mt-1 ">./certificates</h1>
+          <div class="container">
+            <div class="firstframe">
+              <iframe name="gg" src="certificates/base.html" width="700px" height="500px" class=" MainFrame mt"></iframe>
+            </div>
+            <div class="container__content">
+              <div class=" slider mt-1">
+                <div class="card">
+                  <a href="certificates/cisco_1.html" target="gg"><i class="fa-solid fa-file-circle-check"></i></a>
+                  <h3 class="normal-text">Cisco: IT-Essential</h3>
+                </div>
+                <div class="card">
+                  <a href="certificates/cisco_10.html" target="gg"><i class="fa-solid fa-file-circle-check"></i></a>
+                  <h3 class="normal-text">Cisco: Get-Connected</h3>
+                </div>
+                <div class="card">
+                  <a href="certificates/cisco_11.html" target="gg"><i class="fa-solid fa-file-circle-check"></i></a>
+                  <h3 class="normal-text">Cisco: Introduction-IoT</h3>
+                </div>
+                <div class="card" id="last_card">
+                  <a href="certificates/cisco_12.html" target="gg"><i class="fa-solid fa-file-circle-check"></i></a>
+                  <h3 class="normal-text">Cisco: Imprenditorialità</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <footer class="footer mt-2">
+          Copyright &copy; Burgarello Gabriele 2022
+        </footer>
+  </div> <!-- chiusura content -->
+
+  <!-- JAVA -->
+  <script type="text/javascript" src="js/particles.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <!-- loading -->
+  <script type="text/javascript">
+    $(window).on('load', function() {
+      $(".loader").fadeOut(3000);
+      $(".content").fadeIn(3000);
+
+
+    })
+  </script>
+  <!-- scroll -->
+  <script>
+    ScrollReveal().reveal('.reveal', {
+      distance: '100px',
+      duration: 3000,
+      easing: 'cubic-bezier(.215, .61, .355, 1)',
+      interval: 600
+    });
+  </script>
+  <!-- menu telefono -->
+  <script>
+    $(document).ready(function() {
+
+      /* Open Panel */
+      $(".hamburger").on('click', function() {
+        $(".menu").toggleClass("menu--open");
+      });
+
+
+    });
+  </script>
+
+</body>
+
+</html>
