@@ -41,10 +41,10 @@
         <img src="img/logo/burgax.png" alt="Immagine PNG alternativa" height="50" width="130">
       </div>
       <ul class="menu">
-        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-        <li><a href="#who"><i class="fas fa-house-user"></i> Chi Sono</a></li>
-        <li><a href="#certificate" rel="author"><i class="far fa-user"></i> Certificati</a></li>
-        <li><a href="#projects" rel="author"><i class="far fa-user"></i> Altri Siti </a></li>
+        <li><a href="index.html" class="oc"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#who" class="oc"><i class="fas fa-house-user"></i> Chi Sono</a></li>
+        <li><a href="#certificate" class="oc" rel="author"><i class="far fa-user"></i> Certificati</a></li>
+        <li><a href="#projects" class="oc" rel="author"><i class="far fa-user"></i> Altri Siti </a></li>
       </ul>
       <div class="hamburger">
         <i class="fas fa-bars"></i>
@@ -56,11 +56,11 @@
         <h1 class="big-text hero__content__title">Burga's Site</h1>
         <div class="br"> </div>
         <div class=" hero__content__social">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-github"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.facebook.com/gabry.gabry.589/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/gabriele_burgarello/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/Burgax" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://twitter.com/GabryF1bra" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.youtube.com/channel/UCDZrMVofMTHMmK4x2flkvqg" target="_blank"><i class="fa-brands fa-youtube"></i></a>
         </div>
         <div class="br-1"> </div>
         <div class="arrow mt-e"><i class="fa-solid fa-angles-down"></i></div>
@@ -129,7 +129,7 @@
         <div class="projects">
           <h1 class="big-text mt-1 ">./projects</h1>
           <div class="projects__content mt-1">
-            <div class="card-p">
+            <div class="card-p" id="first-card">
                 <iframe name="scuola" src="https://burgax.github.io/scuola/" width="600px" height="400px" class=" MainFrame mt"></iframe>
                 <h3 class="intro-text"> Sito Scolastico</h3>
                 <a href="https://burgax.github.io/scuola/" class="button" target="_blank">VAI</a>
@@ -146,12 +146,14 @@
             </div>
           </div>
         </div>
+          <button type="button" name="button" class="totop"><i class="fas fa-angle-double-up"></i></button>
         <footer class="footer">
           Copyright &copy; Burgarello Gabriele 2022
         </footer>
   </div> <!-- chiusura content -->
 
   <!-- JAVA -->
+  <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/particles.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
   <!-- loading -->
@@ -179,6 +181,9 @@
       /* Open Panel */
       $(".hamburger").on('click', function() {
         $(".menu").toggleClass("menu--open");
+      });
+      $(".oc").on('click', function() {
+        $(".menu").removeClass("menu--open")
       });
 
 
