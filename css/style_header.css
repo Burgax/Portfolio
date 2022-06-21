@@ -15,7 +15,7 @@
 
 .menu{
   width: 100%;
-  z-index: 1;
+  z-index: 999;
 
 }
 
@@ -39,11 +39,12 @@
 
 @media (max-width: 768px) {
 
-  .menu{position: absolute; top:0; right:-100%;background: #c31c1c;height: 100vh;padding-top: 100px; z-index: 1000;}
+  .menu{position: absolute; top:0; right:-100%;background: #01162b;height: 100vh;padding-top: 100px; z-index: 1000;}
   .menu li{display: block; padding-top: 25px;}
   .menu li a{padding: 15px 30px;font-size: 20px; color: #fff; }
 
   .menu--open{right:0%;}
+  .menu--closed{right: -100%;}
   .hamburger{
     display: block;
     width: 40px;

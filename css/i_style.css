@@ -19,7 +19,8 @@ p{line-height: 28px; color:#666; font-weight: 300;}
 @media (max-width: 768px) {
   .big-text{font-size: 40px;}
   .med-text{font-size: 20px;}
-  .button{width: 60%; text-align: center;}
+  .intro-text{font-size: 20px;}
+  .button{width: 60%; text-align: center; }
 }
 /* ! loader */
 .content{ display: none;}
@@ -322,11 +323,7 @@ iframe{
      align-items: center;
      margin-top: 150px;
    }
-   .MainFrame{
-     height:100%;
-     width: 100%;
-     margin: auto;
-   }
+
  }
   .fa-file-certificate{
     font-size: 150px;
@@ -439,9 +436,45 @@ iframe{
 }
 
 
+@media (max-width: 768px) {
+  .projects{
+    margin-top: 150px;
+    height: auto;
+  }
+  .card-p{
+    margin-left: 0;
+    margin-top: 150px;
+  }
+  .MainFrame{
+    height:100%;
+    width: 100%;
+  }
+  .card-p h3{
+    margin-top: 10px;
+  }
+  #first-card{
+    margin-top: 0;
+  }
+}
+/*! totop */
 
-
-
+.totop{
+  background-color: none;
+  background: none;
+  border: none;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #fff;
+  transition: all .4s;
+  z-index: 998;
+}
 
 
 
@@ -454,6 +487,13 @@ iframe{
   position: relative;
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .footer{
+    margin-top: 150px;
+  }
+}
+
 
 
 
